@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "infraportal",
+    "query_tiberius",
+    "knowbe4"
+]
+

@@ -1,0 +1,16 @@
+{
+  "name": "Warp_Infraportal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "cargo run --release",
+    "dev": "cargo run",
+    "watch": "cargo watch -x run",
+    "test": " cargo test -- --nocapture",
+    "nightly": "rustup default nightly",
+    "standard": "rustup default stable",
+    "copybinary": "xcopy target\\release\\infraportal.exe   /y /s",
+    "copybuild": "xcopy build deps\\build\\  /y /s"
+  }
+}

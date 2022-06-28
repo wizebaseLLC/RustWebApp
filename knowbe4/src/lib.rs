@@ -1,0 +1,12 @@
+pub mod attributes;
+pub mod categories;
+pub mod create_category;
+pub mod create_template;
+pub mod graphql_result;
+pub mod list_templates_from_category;
+pub mod move_category;
+pub mod out_csv;
+pub mod query_knowbe4;
+pub mod run_program;
+pub mod selenium;
+pub mod update_template;

@@ -1,0 +1,21 @@
+[package]
+name = "query_tiberius"
+version = "0.1.0"
+authors = ["slewis"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-graphql = {version ="3.0.13", features = ["chrono", "dataloader", "log"]}
+serde_derive = "1.0.123"
+serde = {version = "1.0", features = ["derive"] }
+async-trait = "0.1.50"
+rayon = "1.5"
+dotenv = "0.15.0"
+tiberius =   { version = "0.5.12", features = ["chrono", "integrated-auth-gssapi"] }
+chrono = { version = "0.4.19", features = ["serde"] }
+reqwest = { version = "0.11", features = ["json"] }
+anyhow = "1.0.37"
+serde_json = "1.0"
+serde-xml-rs = "0.4.1"

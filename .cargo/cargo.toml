@@ -1,0 +1,11 @@
+[http]
+proxy = "http://webproxy.nb.com:80"
+timeout = 30
+check-revoke = false
+sslVerify = false
+
+[https]
+proxy = "http://webproxy.nb.com:80"
+timeout = 30
+check-revoke = false
+sslVerify = false
